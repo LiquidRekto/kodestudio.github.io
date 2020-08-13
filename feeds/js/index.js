@@ -8,7 +8,7 @@ function addList(input){
     //var text = document.createTextNode(input);
     //console.log(input);
     //tag.appendChild(text);
-    tag.className = "list-group-item list-group-item-action"; 
+    tag.className = "list-group-item list-group-item-action bg-secondary"; 
     tag.innerHTML = input;
     var element = document.getElementById("listview_repos");
     element.appendChild(tag);
